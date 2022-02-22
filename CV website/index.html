@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+
+    <script type="text/javascript">
+        function zoom() {
+            document.body.style.zoom = "154%" 
+        }
+    </script>
+
+    <body onload="zoom()">
+
+
+
+    <style>
+
+
+
+        body {
+            margin: 0;
+            font-family: 'Redressed', cursive;
+            color: white;
+            background: black;
+            overflow-x: hidden;
+        }
+
+        section {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 400px;
+            padding: 100px 20vw;
+        }
+        
+
+        .blue {
+            background: #001220;
+        }
+
+        .red {
+            background: #8b0000;
+        }
+
+        .green {
+            background: #006400;
+        }
+
+        .indigo {
+            background: #4b0082;
+        }
+
+        .coral {
+            background: #f08080;
+        }
+
+        .orange {
+            background: #ff4500;
+        }
+
+        .yellow {
+            background: #ffff00;
+        }
+
+        .beige {
+            background: #f5f5dc;
+        }
+
+        .brown {
+            background: #a52a2a;
+        }
+
+        .dark {
+            background: #000000;
+        }
+
+        .spacer {
+            aspect-ratio: 960/300;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .flip {
+            transform: rotate(180deg);
+        }
+
+        .blob-motion{
+            position: absolute;
+            transform: translateY(-20%);
+        }
+
+        .front{
+            z-index: +3;
+        }
+
+        .back{
+            z-index: -10;
+        }
+
+
+        .custom-shape-divider-bottom-1645437373 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+
+        .custom-shape-divider-bottom-1645437373 svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 500px;
+        }
+
+        .custom-shape-divider-bottom-1645437373 .shape-fill {
+            fill: #001220;
+        }
+        
+
+        .layer1 {
+            background-image: url('./circles.svg');
+        }
+
+        .layer2 {
+            background-image: url('./wavesp2.svg');
+        }
+
+        .layer3 {
+            background-image: url('./pink.svg');
+        }
+
+        .layer4 {
+            background-image: url('./red.svg');
+        }
+
+        .layer5 {
+            background-image: url('./red2.svg');
+        }
+
+        .layer6 {
+            background-image: url('./red3.svg');
+        }
+
+        .layer7 {
+            background-image: url('./core.svg');
+        }
+
+        .layer8 {
+            background-image: url('./core2.svg');
+        }
+
+        .layer9 {
+            background-image: url('./top.svg');
+        }
+    </style>
+</head>
+
+<div class="custom-shape-divider-bottom-1645437373 front">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+    </svg>
+</div>
+
+<body>
+
+    
+
+    <section class="green">
+
+        <h1 style="font-size:4vw; text-align:left" class ="front">Tyrell <br> Kelly-Barrett</h1>
+        <p class ="front">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati inventore dicta earum sit veniam voluptas
+            molestiae ex perspiciatis atque molestias officiis, accusamus illo tenetur aliquid officia expedita!
+            Facilis, impedit eaque.</p>
+
+        <svg id="visual" viewBox="0 0 960 300" width="960" height="300" xmlns="http://www.w3.org/2000/svg" class="blob-motion";
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+
+            <g transform="translate(493.8616677844203 145.98605528004182)" >
+                <path = id="blob4"
+                    d="M83.5 -142.2C93.1 -139.2 75.1 -86.1 82.8 -54C90.4 -22 123.7 -11 138.9 8.7C154 28.5 151.1 57 143.6 89.5C136.2 122 124.4 158.4 99.7 148.8C75 139.3 37.5 83.7 12.3 62.5C-13 41.3 -26 54.4 -57.2 67.7C-88.4 81 -137.7 94.5 -160.5 83.3C-183.4 72 -179.7 36 -169.3 6C-158.9 -24 -141.8 -48 -119.1 -59.4C-96.3 -70.8 -67.9 -69.6 -47.1 -66.1C-26.3 -62.6 -13.2 -56.8 11.9 -77.4C37 -98.1 74 -145.2 83.5 -142.2"
+                    fill="#4aa64a"></path>
+            </g>
+
+            <g transform="translate(462.95244159136234 157.8448288333439)"style = "visibility: hidden"> 
+                <path = id="blob3"
+                    d="M113.9 -98.2C151.4 -76.4 188.2 -38.2 182.4 -5.8C176.6 26.6 128.3 53.3 90.8 72C53.3 90.8 26.6 101.6 -6.4 108C-39.4 114.4 -78.7 116.2 -105.7 97.5C-132.7 78.7 -147.4 39.4 -148.8 -1.4C-150.2 -42.2 -138.4 -84.4 -111.4 -106.2C-84.4 -128 -42.2 -129.5 -2 -127.5C38.2 -125.5 76.4 -120 113.9 -98.2"
+                    fill="#4aa64a"></path>
+            </g>
+
+            <g transform="translate(480.0858785278343 141.1090400030543)"style ="visibility: hidden" >
+                <path = id="blob1"
+                    d="M45.7 -50C55.1 -36.3 55.7 -18.1 54.2 -1.4C52.8 15.3 49.4 30.6 40 49.4C30.6 68.1 15.3 90.3 0.2 90.1C-14.8 89.8 -29.7 67.2 -39.4 48.4C-49 29.7 -53.5 14.8 -54.7 -1.2C-55.9 -17.2 -53.7 -34.4 -44.1 -48.1C-34.4 -61.7 -17.2 -71.9 0.5 -72.3C18.1 -72.8 36.3 -63.6 45.7 -50"
+                    fill="#083608"></path>
+            </g>
+
+            <g transform="translate(495.14290699201604 151.42586839634563)" style ="visibility: hidden" >
+                <path = id="blob2"
+                    d="M52.3 -57.3C62.1 -42.4 60.5 -21.2 58.7 -1.9C56.8 17.4 54.6 34.9 44.7 49.2C34.9 63.6 17.4 74.8 0.1 74.7C-17.2 74.5 -34.4 63.1 -53.2 48.7C-71.9 34.4 -92.2 17.2 -90.2 2C-88.3 -13.3 -64 -26.5 -45.3 -41.4C-26.5 -56.2 -13.3 -72.6 4 -76.6C21.2 -80.5 42.4 -72.1 52.3 -57.3"
+                    fill="#4aa64a"></path>
+            </g>
+
+            
+            
+
+        </svg>
+
+        <script>
+            const tween = KUTE.fromTo(
+                '#blob4',
+                {path: '#blob1'},
+                {path: '#blob4'},
+                {repeat: 999,duration:3000,yoyo:true}
+
+            )
+            
+
+            tween.start()
+        </script>
+
+    </section>
+
+
+
+    <div class="spacer layer1 back"></div>
+    <div class="spacer layer9"></div>
+    <div class="spacer layer1"></div>
+
+    <section class="blue">
+        <h1 style="font-size:5vw">About me</h1>
+        <p>Eius magni voluptatum excepturi, odit vel illum quam officiis error itaque natus ipsa incidunt numquam
+            doloremque pariatur fugiat quae, modi quis recusandae. Consequuntur facilis eum, quas quis ut debitis
+            praesentium.</p>
+        <div class="spacer layer1"></div>
+    </section>
+
+    <div class="spacer layer2"></div>
+
+    <section class="indigo">
+        <h1 style="font-size:5vw">Projects</h1>
+        <p>Expedita quas quod animi dolorum minima laudantium rem voluptate. Esse, error! Dicta facere sed tenetur,
+            numquam recusandae quisquam quae, possimus est, ratione cupiditate sit? Doloribus exercitationem eaque unde
+            illo hic.</p>
+
+    </section>
+
+    <div class="spacer layer3"></div>
+
+    <section class="coral">
+        <h1 style="font-size:5vw">Aspirations</h1>
+        <p>Voluptatum enim deleniti autem blanditiis nisi fuga odio. Dolor quaerat error aliquam molestiae, eius
+            obcaecati nobis tenetur, dolore doloremque cumque labore culpa eum libero non dicta consequuntur omnis
+            quisquam nisi!</p>
+
+    </section>
+
+    <div class="spacer layer4"></div>
+
+    <div class="spacer layer6"></div>
+
+    <section class="red">
+        <h1 style="font-size:5vw">Skills</h1>
+        <p>Voluptatibus eum facilis voluptates natus, odio facere ducimus hic numquam aut accusantium quia,
+            necessitatibus dolorum inventore cumque ratione tempora beatae temporibus. Et assumenda error non, possimus
+            cum ex blanditiis vero!</p>
+
+    </section>
+
+    <div class="spacer layer5"></div>
+
+    <section class="orange">
+        <h1 style="font-size:5vw">Experience</h1>
+        <p>Tenetur minima iste possimus aliquam laudantium quasi amet sapiente accusamus eveniet tempore qui veritatis
+            necessitatibus eaque numquam, sequi libero placeat facilis error sunt porro molestias. Accusantium, mollitia
+            dolor. Est, similique!</p>
+
+    </section>
+
+    <div class="spacer layer7"></div>
+
+    <section class="beige">
+        <h1 style="font-size:5vw">Contact me</h1>
+        <p>In ad hic laborum eius ea dignissimos repellendus a deleniti, sequi adipisci, dolore aliquid explicabo
+            consectetur, vero ducimus placeat tempora. Distinctio quia, reprehenderit iure eligendi nulla vitae
+            temporibus. Maxime, fugiat!</p>
+
+    </section>
+
+    <div class="spacer layer8"></div>
+
+
+</body>
+
+</html>
